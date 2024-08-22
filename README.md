@@ -15,7 +15,7 @@ Server-Fotofoshi is the backend API for a social networking platform for sharing
 
 ## Installation
 
-1. Clone the repository
+1. Clone the repository : [gh repo clone serialkiller123/server-fotofoshi](https://github.com/serialkiller123/server-fotofoshi.git)
 2. Run `composer install` to install dependencies
 3. Copy the `.env.example` file to `.env` and configure the database connection
 4. Run `php artisan key:generate` to generate an application key
