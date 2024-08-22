@@ -18,10 +18,11 @@ return Application::configure(basePath: dirname(__DIR__))
 
         $middleware->alias([
             'verified' => \App\Http\Middleware\EnsureEmailIsVerified::class,
+            'api_key' => \App\Http\Middleware\ApiKeyMiddleware::class,
         ]);
 
         //
     })
     ->withExceptions(function (Exceptions $exceptions) {
-        //
+        
     })->create();
