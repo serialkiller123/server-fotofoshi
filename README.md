@@ -20,7 +20,8 @@ Server-Fotofoshi is the backend API for a social networking platform for sharing
 3. Copy the `.env.example` file to `.env` and configure the database connection
 4. Run `php artisan key:generate` to generate an application key
 5. Run `php artisan storage:link`
-5. Run `php artisan migrate` to create the database tables
+6. Run `php artisan migrate` to create the database tables
+7. Run `php artisan serve`
 
 ## Contributing
 
